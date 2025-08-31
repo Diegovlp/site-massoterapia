@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diego Vinícius Massoterapeuta</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-green-50 to-emerald-100 text-gray-800 font-sans">
+  <!-- Cabeçalho -->
+  <header class="flex items-center justify-between p-6 bg-white shadow-md">
+    <div class="flex items-center space-x-3">
+      <img src="sua-logo.png" alt="Logo" class="h-12 w-12">
+      <h1 class="text-xl font-bold text-emerald-700">Diego Vinícius Massoterapeuta</h1>
+    </div>
+    <nav class="space-x-6 hidden md:flex">
+      <a href="#sobre" class="hover:text-emerald-600">Sobre</a>
+      <a href="#servicos" class="hover:text-emerald-600">Serviços</a>
+      <a href="#contato" class="hover:text-emerald-600">Contato</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="text-center py-20 bg-emerald-700 text-white">
+    <h2 class="text-4xl font-bold mb-4">Bem-vindo ao seu momento de relaxamento</h2>
+    <p class="text-lg mb-6">Cuidando do corpo e da mente com técnicas de massoterapia.</p>
+    <a href="#contato" class="bg-white text-emerald-700 font-semibold px-6 py-3 rounded-full shadow-md hover:bg-emerald-100">Agende sua sessão</a>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="py-16 px-6 max-w-5xl mx-auto text-center">
+    <h3 class="text-3xl font-semibold text-emerald-700 mb-6">Sobre Mim</h3>
+    <p class="text-lg leading-relaxed">Sou Diego Vinícius, massoterapeuta especializado em massagens relaxantes, terapêuticas, liberação miofascial e ventosaterapia. Meu objetivo é proporcionar bem-estar, alívio de tensões e qualidade de vida para cada cliente.</p>
+  </section>
+
+  <!-- Serviços -->
+  <section id="servicos" class="py-16 bg-white px-6">
+    <h3 class="text-3xl font-semibold text-center text-emerald-700 mb-12">Serviços</h3>
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div class="bg-emerald-50 p-6 rounded-2xl shadow hover:shadow-lg">
+        <h4 class="text-xl font-semibold mb-2">Massagem Relaxante</h4>
+        <p>Alívio do estresse e promoção de relaxamento profundo.</p>
+      </div>
+      <div class="bg-emerald-50 p-6 rounded-2xl shadow hover:shadow-lg">
+        <h4 class="text-xl font-semibold mb-2">Terapêutica</h4>
+        <p>Tratamento de dores musculares e recuperação do equilíbrio corporal.</p>
+      </div>
+      <div class="bg-emerald-50 p-6 rounded-2xl shadow hover:shadow-lg">
+        <h4 class="text-xl font-semibold mb-2">Liberação Miofascial</h4>
+        <p>Técnica eficaz para liberar tensões acumuladas nos músculos.</p>
+      </div>
+      <div class="bg-emerald-50 p-6 rounded-2xl shadow hover:shadow-lg">
+        <h4 class="text-xl font-semibold mb-2">Ventosaterapia</h4>
+        <p>Estimula a circulação sanguínea e alivia dores crônicas.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="py-16 px-6 bg-emerald-700 text-white text-center">
+    <h3 class="text-3xl font-semibold mb-6">Entre em Contato</h3>
+    <p class="mb-4">Agende sua sessão e cuide do seu bem-estar.</p>
+    <div class="flex justify-center space-x-6">
+      <a href="https://wa.me/5535998755967" target="_blank" class="bg-white text-emerald-700 px-6 py-3 rounded-full shadow-md font-semibold hover:bg-emerald-100">WhatsApp</a>
+      <a href="https://instagram.com/diegoviniciusmassoterapia" target="_blank" class="bg-white text-emerald-700 px-6 py-3 rounded-full shadow-md font-semibold hover:bg-emerald-100">Instagram</a>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-emerald-900 text-white text-center p-4">
+    <p>&copy; 2025 Diego Vinícius Massoterapeuta - Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
